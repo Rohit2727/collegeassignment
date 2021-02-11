@@ -1,0 +1,41 @@
+@media screen and (max-width: 920px) {
+	header{
+		flex-direction: column;
+	}
+	header .right-head{
+		margin-left: 0;
+	}
+	header .right-head ul{
+		flex-direction: column;
+		text-align: center;
+	}
+	.introduction{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.introduction-details img{
+		width: 100%;
+		height: auto;
+	}
+	.main-heading {
+		font-size: 30px;
+	}
+	.introduction h2{
+		font-size: 28px;
+	}
+	.introduction p{
+		font-size: 18px;
+	}
+	.expertise .flex-container, .skills .flex-container{
+		flex-direction: column;
+	}
+	.expertise .flex-container .flex-column, .skills .flex-container .flex-column{
+		width: 100%;
+	}
+	.footer-wrapper{
+		flex-direction: column;
+	}
+	.footer-wrapper .footer-column{
+		width: 100%;
+	}
+}

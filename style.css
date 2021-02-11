@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Kanit', sans-serif;
+}
+section{
+	padding: 3em 0;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background: linear-gradient(90deg, #30388d, #3484c5);
+}
+header .head-name{
+	font-size: 30px;
+	color: #fff;
+}
+.nav-links {
+	display: flex;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.nav-links li{
+	font-size: 18px;
+	list-style-type: none;
+	margin-right:20px;
+}
+.right-head{
+	margin-left: auto;
+}
+.nav-links li a{
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s ease;
+}
+.nav-links li a:hover{
+	color: darkturquoise;
+}
+header .left-head{
+	display: flex;
+}
+.introduction{
+	padding-left: 100px;
+	padding-right:100px;
+	text-align: center;
+}
+.main-heading{
+text-align: center;
+font-size: 40px;
+}
+.introduction h2{
+	font-size:34px;
+}
+.introduction p{
+	font-size:26px;
+}
+.introduction .introduction-details{
+	margin-top: 30px;
+}
+.introduction .introduction-details img{
+	margin-top: 20px;
+}
+.expertise{
+	background-color: #eee;
+}
+.expertise-details{
+	display: flex;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: space-around;
+}
+.skills{
+	background: #fff;
+	padding-left: 20px;
+	padding-right: 20px ;
+}
+.expertise .flex-container,
+.skills .flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.expertise .flex-container .flex-column,
+.skills .flex-container .flex-column {
+    flex-grow: 1;
+    width: 33%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+	transition: 0.4s ease-in-out;
+	border-radius: 5px;
+}
+.expertise .flex-container .flex-column:hover,
+.skills .flex-container .flex-column:hover{
+	box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
+}
+.expertise .flex-container .flex-column i,
+.skills .flex-container .flex-column i{
+font-size: 35px;
+	color:#30388d ;
+}
+.expertise h3,
+.skills h3{
+	font-size: 26px;
+}
+.expertise p,
+.skills p{
+	font-size: 18px;
+}
+.footer-wrapper{
+	background:linear-gradient(90deg, #30388d, #3484c5);
+	color: #fff;
+	display: flex;
+	padding: 10px 30px;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-wrapper p{
+	font-size: 18px;
+}
+.footer-wrapper a{
+	color: #fff;
+	font-size: 18px;
+	margin-right: 15px;
+}
+.footer-wrapper .footer-column{
+	margin-top: 15px;
+	width: 33%;
+	flex-grow: 1;
+	text-align: center;
+}
+.footer-wrapper a:hover{
+	transform: rotate(360deg);
+}
